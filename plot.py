@@ -4,7 +4,12 @@ import sys
 
 filename = sys.argv[1]        # Stores ARG1 in filename, as in: $ python plot.py ARG1 ARG2 
 data = np.loadtxt(filename, skiprows=33, delimiter=",")   # Attempts to load filename into local variable data.
-plt.plot(data[4], data[8])
+plt.plot(data[8], data[4], color="blue", linestyle="-")
+plt.xlabel("Strain [Ext.%]")
+plt.ylabel("Stress [MPa]")
+plt.legnd(loc='best')
+plt.show()
+
 
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
