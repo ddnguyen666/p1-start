@@ -8,13 +8,19 @@ range = (len(data))
 stress = data[:,3]
 strain = data[:,7]
 plt.plot(strain, stress, color="blue", linestyle="-")
+plt.rc('font', family = 'serif', size = '18')
 plt.xlabel("Strain [Ext.%]")
 plt.ylabel("Stress [MPa]")
-plt.legend(loc='best')
 plt.grid(True)
 plt.title(filename)
-plt.show()
 
+
+ls = np.linspace(min(strain), max(strain))
+pf = np.polyfit(strain, stress, 1)
+lf = ls*pf[0]+pf[1]
+plt.plot(ls, lf, 'k--', linewidth=2, label='Linear Fit')
+plt.legend(loc='best')
+plt.show()
 
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
