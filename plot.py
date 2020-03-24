@@ -9,8 +9,8 @@ stress = data[:,3]
 strain = data[:,7]
 plt.plot(strain, stress, color="blue", linestyle="-")
 plt.rc('font', family = 'serif', size = '18')
-plt.xlabel("Strain [Ext.%]")
-plt.ylabel("Stress [MPa]")
+plt.xlabel("Strain [Ext.%]", fontsize = 12)
+plt.ylabel("Stress [MPa]", fontsize = 12)
 plt.grid(True)
 plt.title(filename)
 
