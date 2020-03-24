@@ -21,7 +21,7 @@ lf = ls*pf[0]+pf[1]
 plt.plot(ls, lf, 'k--', linewidth=2, label='Linear Fit')
 plt.legend(loc='best')
 plt.show()
-
+print("Young's Modulus =", pf[0],"MPa")
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
 # so that numbers are loaded into the local function 'data'.
