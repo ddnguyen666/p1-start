@@ -39,4 +39,4 @@ Step 4: Close graph window, Young's modulus will appear above command line
 Young's Modulus: ?????? MPa
 
 
-
+When starting this project, I had difficulty in conceptionalizing how to use python in bash as I thought they were two completely different programs. Additionally, I wasn't sure how the material we have learned using the jupyter notebooks would translate to bash as I felt that each program used different commands. Throughout this project I was able to better understand how python and bash operate together when generating a graph. It didn't click until the script I created looked just like one of our homework assignments where we had to generate a scatterplot graph. Once I was able to comprehend what I was doing, it made the rest of the process easier to complete.
