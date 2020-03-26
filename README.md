@@ -1,6 +1,13 @@
 Software Requirements
 ---------------------
-Python 3.5.0
+Python 3.2.0
+
+Import matplotlib.pyplot, numpy, and sys.
+
+How to retrieve program
+-----------------------
+Go to githup.com/ddnguyen666/p1-start.
+Can either download or clone files.
 
 Instructions
 ------------
